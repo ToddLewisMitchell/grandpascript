@@ -67,7 +67,7 @@ def wait():
     return
 
 def verse_of_the_day():
-    """Print the verse of the day stored in verse_dictionary.verses."""
+    """Print the verse of the day stored in dictionaries.verses."""
     print(f'\n{box_text(d.verses[day_of_year()], "left", "single", True)}')
     colorama.init()
     c = Back.LIGHTWHITE_EX
